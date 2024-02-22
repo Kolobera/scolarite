@@ -27,20 +27,25 @@ Connexion (Login)
 
 Accueil (Home)
 
-![img_1.png](img_1.png)
-
+<p align="center">
+<img src="img_1.png" style="width: 250px; max-width: 100%; height: 550px;" title="Click to enlarge picture" />
+</p>
 
 
 Inscription (Inscription)
 
-![img_2.png](img_2.png)
+<p align="center">
+<img src="img_2.png" style="width: 250px; max-width: 100%; height: 550px;" title="Click to enlarge picture" />
+</p>
 
 
 
 
 Liste des Étudiants (Liste Etudiants)
 
-![img_3.png](img_3.png)
+<p align="center">
+<img src="img_3.png" style="width: 250px; max-width: 100%; height: 550px;" title="Click to enlarge picture" />
+</p>
 
 ## Technologies Utilisées 
 . Java
