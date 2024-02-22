@@ -19,13 +19,20 @@ Ce projet est une application Android destinée à la gestion de la scolarité d
 Connexion (Login)
 ![img.png](img.png)
 
+
+
 Accueil (Home)
 
 ![img_1.png](img_1.png)
 
+
+
 Inscription (Inscription)
 
 ![img_2.png](img_2.png)
+
+
+
 
 Liste des Étudiants (Liste Etudiants)
 
