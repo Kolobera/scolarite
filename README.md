@@ -17,7 +17,11 @@ Ce projet est une application Android destinée à la gestion de la scolarité d
 ## Captures d'écran
 
 Connexion (Login)
-![img.png](img.png)
+
+
+<p align="center">
+<img src="img.png" style="width: 250px; max-width: 100%; height: 550px;" title="Click to enlarge picture" />
+</p>
 
 
 
