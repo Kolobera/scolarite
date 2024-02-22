@@ -1,8 +1,8 @@
-"# scolarite"
+## Scolarite
 Ce projet est une application Android destinée à la gestion des étudiants
 
 
-"# Fonctionnalités"
+## Fonctionnalités"
 
 Ce projet est une application Android destinée à la gestion de la scolarité des étudiants.
 
@@ -14,7 +14,7 @@ Ce projet est une application Android destinée à la gestion de la scolarité d
 
  - Liste des Étudiants (Liste Etudiants) : Affiche une liste des étudiants inscrits.
 
-"# Captures d'écran"
+## Captures d'écran
 
 Connexion (Login)
 ![img.png](img.png)
@@ -31,7 +31,7 @@ Liste des Étudiants (Liste Etudiants)
 
 ![img_3.png](img_3.png)
 
-"# Technologies Utilisées "
+## Technologies Utilisées 
 . Java
 . Android Studio
 . Retrofit (pour les requêtes HTTP)
