@@ -33,6 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/emailtxt"
+            android:inputType="textEmailAddress"
             />
         <TextView
             android:layout_width="match_parent"
@@ -42,8 +43,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/nomtxt"
-            />
+            android:id="@+id/passwordtxt"
+            android:inputType="textPassword" />
 
         <Button
             android:id="@+id/loginbt"

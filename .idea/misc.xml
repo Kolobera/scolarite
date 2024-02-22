@@ -4,9 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Kolobera/AndroidStudioProjects/Scolarite/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/Kolobera/AndroidStudioProjects/Scolarite/app/src/main/res/layout/activity_inscription.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/Kolobera/AndroidStudioProjects/Scolarite/app/src/main/res/layout/activity_liste_etudiant.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/Kolobera/AndroidStudioProjects/Scolarite/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Kolobera/AndroidStudioProjects/Scolarite/app/src/main/res/layout/activity_inscription.xml" value="0.1" />
+        <entry key="..\:/Users/Kolobera/AndroidStudioProjects/Scolarite/app/src/main/res/layout/activity_liste_etudiant.xml" value="0.1" />
+        <entry key="..\:/Users/Kolobera/AndroidStudioProjects/Scolarite/app/src/main/res/layout/activity_login.xml" value="0.1" />
       </map>
     </option>
   </component>
