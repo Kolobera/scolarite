@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 public class EtudiantResponse {
-    @SerializedName("mat")
+    @SerializedName("matricule")
     @Expose
     private String mat;
     @SerializedName("nom")
@@ -15,12 +15,42 @@ public class EtudiantResponse {
     @SerializedName("prenom")
     @Expose
     private String prenom;
-    @SerializedName("adr")
+    @SerializedName("adresse")
     @Expose
     private String adr;
-    @SerializedName("tel")
+    @SerializedName("telephone")
     @Expose
     private int tel;
+
+    @SerializedName("frais_scolarite")
+    @Expose
+    private double frais;
+
+
+    
+    public String getMat() {
+        return mat;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public String getAdr() {
+        return adr;
+    }
+
+    public int getTel() {
+        return tel;
+    }
+
+    public double getFrais() {
+        return frais;
+    }
 
     public void setMat(String mat) {
         this.mat = mat;
@@ -44,33 +74,5 @@ public class EtudiantResponse {
 
     public void setFrais(double frais) {
         this.frais = frais;
-    }
-
-    @SerializedName("frais")
-    @Expose
-    private double frais;
-
-    public String getMat() {
-        return mat;
-    }
-
-    public String getNom() {
-        return nom;
-    }
-
-    public String getPrenom() {
-        return prenom;
-    }
-
-    public String getAdr() {
-        return adr;
-    }
-
-    public int getTel() {
-        return tel;
-    }
-
-    public double getFrais() {
-        return frais;
     }
 }

@@ -46,7 +46,7 @@ public class InscriptionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Retrofit retrofit = new Retrofit.Builder()
-                        .baseUrl("http://192.168.137.38:8082")
+                        .baseUrl("http://192.168.137.38:8080")
                         .addConverterFactory(GsonConverterFactory.create())
                         .build();
 
@@ -54,7 +54,7 @@ public class InscriptionActivity extends AppCompatActivity {
 
                 //Création d'un objet etudiant à insérer dans la base
                 EtudiantResponse e = new EtudiantResponse();
-                e.setMat(matrtxt.getText().toString());
+                e.setMat(matrtxt.getText().toString().trim());
                 e.setNom(nametxt.getText().toString());
                 e.setPrenom(prenomtxt.getText().toString());
                 e.setAdr(addrtxt.getText().toString());
@@ -70,10 +70,15 @@ public class InscriptionActivity extends AppCompatActivity {
                             Toast.makeText(InscriptionActivity.this,
                                     "Etudiant inscrit avec succès",
                                     Toast.LENGTH_LONG).show();
-
+                        if (response.isSuccessful()) {
+                            Log.d("Response :", response.body().toString());
+                        } else {
+                            Log.d("error message exception", response.toString());
+                        }
                     }
                     @Override
                     public void onFailure(Call<EtudiantResponse> call, Throwable t) {
+                        Log.d("Error : ", t.getMessage());
                         Toast.makeText(InscriptionActivity.this,
                                 "Impossible d'accéder au serveur",
                                 Toast.LENGTH_LONG).show();
