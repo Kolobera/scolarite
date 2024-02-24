@@ -25,11 +25,9 @@ Accueil (Home)
 
 Inscription (Inscription)
 
-![img_2.png](img_2.png)
 
 Liste des Étudiants (Liste Etudiants)
 
-![img_3.png](img_3.png)
 
 "# Technologies Utilisées "
 . Java

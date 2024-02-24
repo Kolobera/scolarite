@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 public class EtudiantResponse {
-    @SerializedName("matricule")
+    @SerializedName("mat")
     @Expose
     private String mat;
     @SerializedName("nom")
@@ -15,14 +15,14 @@ public class EtudiantResponse {
     @SerializedName("prenom")
     @Expose
     private String prenom;
-    @SerializedName("adresse")
+    @SerializedName("adr")
     @Expose
     private String adr;
-    @SerializedName("telephone")
+    @SerializedName("tel")
     @Expose
     private int tel;
 
-    @SerializedName("frais_scolarite")
+    @SerializedName("frais")
     @Expose
     private double frais;
 
